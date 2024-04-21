@@ -12,13 +12,14 @@
             text-align: center;
             margin: 0;
             padding: 0;
+            padding-top: 50px; /* Adding space from the top */
         }
         .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: calc(100vh - 50px); /* Adjusting height to leave space from the top */
             padding: 20px;
         }
         h1 {
@@ -40,11 +41,16 @@
             box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.5);
             margin-top: 30px;
         }
+        /* Hide unwanted HTML tags */
+        script, style, iframe {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to SphereMail</h1>
+        <div style="margin-top: 50px;"></div> <!-- Creating space between headings and paragraph -->
         <p>Because, you know, who needs humility when you can have ambition and bravado? So buckle up and prepare to conquer the digital marketing realm with us. Victory awaits!</p>
         <img src="https://i.ibb.co/0JRQz8r/cheb-laarbi-coding.gif" alt="Old School Coding GIF">
     </div>
