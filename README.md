@@ -21,11 +21,6 @@
             min-height: calc(100vh - 50px); /* Adjusting height to leave space from the top */
             padding: 20px;
         }
-        h1 {
-            font-size: 32px;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
         p {
             font-size: 18px;
             margin-bottom: 20px;
@@ -48,10 +43,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to SphereMail</h1>
-        <div style="margin-top: 50px;"></div> <!-- Creating space between headings and paragraph -->
         <p>Because, you know, who needs humility when you can have ambition and bravado? So buckle up and prepare to conquer the digital marketing realm with us. Victory awaits!</p>
-        <img src="https://i.ibb.co/0JRQz8r/cheb-laarbi-coding.gif" alt="Old School Coding GIF">
+        <img src="https://iili.io/JSxHmFa.gif" alt="Old School Coding GIF">
     </div>
 </body>
 </html>
