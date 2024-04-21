@@ -28,8 +28,9 @@
         }
         p {
             font-size: 18px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            line-height: 1.6;
         }
         img {
             max-width: 100%;
@@ -44,10 +45,8 @@
 <body>
     <div class="container">
         <h1>Welcome to SphereMail</h1>
-        <p>Step into the digital time machine and witness the grand unveiling of our latest creation: SphereMail. Behold, the prestigious domain acquired to spearhead our journey to becoming the TOP MAILER of all time.</p>
         <p>Because, you know, who needs humility when you can have ambition and bravado? So buckle up and prepare to conquer the digital marketing realm with us. Victory awaits!</p>
         <img src="https://i.ibb.co/0JRQz8r/cheb-laarbi-coding.gif" alt="Old School Coding GIF">
     </div>
 </body>
 </html>
-
